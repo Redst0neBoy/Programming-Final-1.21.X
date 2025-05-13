@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "programming-final",
+	"version": "${version}",
+	"name": "Programming Final",
+	"description": "This is a Minecraft Mod by Redst0ne meant for his Computer Programming Final",
+	"authors": [
+		"Redst0ne"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/Redst0nes Programming Final/Programming-Final-1.21.X"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/programming-final/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.redst0ne.programmingfinal.ProgrammingFinal"
+		],
+		"fabric-datagen": [
+			"net.redst0ne.programmingfinal.ProgrammingFinalDataGenerator"
+		],
+		"client": [
+			"net.redst0ne.programmingfinal.ProgrammingFinalClient"
+		]
+	},
+	"mixins": [
+		"programming-final.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
