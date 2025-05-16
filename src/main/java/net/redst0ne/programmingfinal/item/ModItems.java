@@ -10,10 +10,15 @@ import net.redst0ne.programmingfinal.ProgrammingFinal;
 
 public class ModItems {
 
+    public static final Item BLUE = registerItem("blue", new Item(new Item.Settings()));
 
     public static final Item BLUE_APPLE = registerItem("blue_apple", new Item(new Item.Settings()));
 
     public static final Item PREPARED_ENDSTONE = registerItem("prepared_endstone", new Item(new Item.Settings()));
+
+    public static final Item BLUESTONE_DUST = registerItem("bluestone_dust", new Item(new Item.Settings()));
+
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(ProgrammingFinal.MOD_ID, name), item);

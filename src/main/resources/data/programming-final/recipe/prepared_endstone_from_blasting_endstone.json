@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.2,
+  "group": "prepared_endstone",
+  "ingredient": {
+    "item": "minecraft:end_stone"
+  },
+  "result": {
+    "id": "programming-final:prepared_endstone"
+  }
+}

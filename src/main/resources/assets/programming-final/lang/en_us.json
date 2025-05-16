@@ -1,7 +1,13 @@
 {
+  "item.programming-final.blue": "Blue",
   "item.programming-final.blue_apple": "Blue Apple",
   "item.programming-final.prepared_endstone": "Prepared Endstone",
 
+  "item.programming-final.bluestone_dust": "Bluestone Dust",
 
-  "block.programming-final.moonstone": "Moonstone"
+
+  "block.programming-final.moonstone": "Moonstone",
+  "block.programming-final.bluestone_ore": "Bluestone Ore",
+
+  "itemgroup.programming-final.programming_final_items": "Programming Final Creations"
 }
