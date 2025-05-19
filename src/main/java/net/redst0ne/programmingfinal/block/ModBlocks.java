@@ -42,6 +42,7 @@ public class ModBlocks {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(ModBlocks.MOONSTONE);
+            fabricItemGroupEntries.add(ModBlocks.BLUESTONE_ORE);
         });
     }
 }

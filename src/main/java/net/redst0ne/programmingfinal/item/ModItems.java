@@ -34,6 +34,12 @@ public class ModItems {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(PREPARED_ENDSTONE);
+
+        });
+
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.REDSTONE).register(fabricItemGroupEntries -> {
+            fabricItemGroupEntries.add(BLUESTONE_DUST);
+
         });
     }
 }
